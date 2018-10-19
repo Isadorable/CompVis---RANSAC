@@ -6,6 +6,7 @@ A first set of matching point is detected by using Matlab built-in SURF, which
 
 Once the best model/Homography matrix H has been found, it is used to discard the points where the distance between point2 and the point1*H is bigger than a fix threshold.
 
-BEFORE:
-
+BEFORE (red arrows = wrong matched features):
+![Alt text](Before.png?raw=true "Title")
 AFTER:
+![Alt text](After.png?raw=true "Title")
